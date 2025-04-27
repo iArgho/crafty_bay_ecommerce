@@ -1,5 +1,5 @@
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
 class ProductSize extends StatelessWidget {
   const ProductSize({
@@ -27,13 +27,16 @@ class ProductSize extends StatelessWidget {
                 },
                 child: Container(
                   margin: const EdgeInsets.symmetric(horizontal: 4),
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                   decoration: BoxDecoration(
                     border: Border.all(
-                      color: value == index ? AppColor.primaryColor : Colors.grey,
+                      color:
+                          value == index ? AppColor.primaryColor : Colors.grey,
                     ),
                     borderRadius: BorderRadius.circular(6),
-                    color: value == index ? AppColor.primaryColor : Colors.white,
+                    color:
+                        value == index ? AppColor.primaryColor : Colors.white,
                   ),
                   child: Text(
                     sizes[index],
@@ -51,4 +54,3 @@ class ProductSize extends StatelessWidget {
     );
   }
 }
-

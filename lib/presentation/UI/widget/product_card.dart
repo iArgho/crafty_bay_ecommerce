@@ -1,7 +1,7 @@
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/product_details_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/screens/product_details_screen.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
 class ProductCard extends StatelessWidget {
   const ProductCard({super.key});

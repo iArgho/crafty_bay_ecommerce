@@ -1,9 +1,9 @@
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/auth/complete_profile_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/path_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/route_manager.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/screens/auth/complete_profile_screen.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/path_util.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 class OtpVerificationScreen extends StatefulWidget {
@@ -113,9 +113,7 @@ class _EmailVerificationScreenState extends State<OtpVerificationScreen> {
               ),
             ),
             TextButton(
-              onPressed: () {
-                
-              },
+              onPressed: () {},
               child: const Text(
                 'Resent Code',
                 style: TextStyle(color: Colors.grey),

@@ -1,10 +1,10 @@
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/splash_screen.dart';
 import 'package:get/route_manager.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/screens/splash_screen.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
-class CraftyBay extends StatelessWidget {
-  const CraftyBay({super.key});
+class IArgho extends StatelessWidget {
+  const IArgho({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,26 +12,28 @@ class CraftyBay extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'CraftyBay',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF07ADAE)),
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColor.primaryColor),
         useMaterial3: true,
-        primaryColor: const Color(0xFF07ADAE),
-        primarySwatch:
-            MaterialColor(AppColor.primaryColor.value, AppColor().color),
+        primaryColor: AppColor.primaryColor,
+        primarySwatch: MaterialColor(
+          AppColor.primaryColor.value,
+          AppColor().color, // Ensure this returns a Map<int, Color>
+        ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            backgroundColor: const Color(0xFF07ADAE),
+            backgroundColor: AppColor.primaryColor,
           ),
         ),
-        inputDecorationTheme: const InputDecorationTheme(
+        inputDecorationTheme: InputDecorationTheme(
           enabledBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: Color(0xFF07ADAE)),
+            borderSide: BorderSide(color: AppColor.primaryColor),
           ),
           focusedBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: Color(0xFF07ADAE)),
+            borderSide: BorderSide(color: AppColor.primaryColor),
           ),
         ),
-        progressIndicatorTheme: const ProgressIndicatorThemeData(
-          color: Color(0xFF07ADAE),
+        progressIndicatorTheme: ProgressIndicatorThemeData(
+          color: AppColor.primaryColor,
         ),
       ),
       home: const SplashScreen(),

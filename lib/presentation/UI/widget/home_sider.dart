@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
 class HomeSlider extends StatelessWidget {
   HomeSlider({super.key});
@@ -31,7 +31,10 @@ class HomeSlider extends StatelessWidget {
                   child: Center(
                     child: Text(
                       'text $i',
-                      style: const TextStyle(fontSize: 16.0, color: Colors.white, fontWeight: FontWeight.bold),
+                      style: const TextStyle(
+                          fontSize: 16.0,
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold),
                     ),
                   ),
                 );

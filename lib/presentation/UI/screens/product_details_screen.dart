@@ -1,9 +1,9 @@
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/widget/productdetailswidget/product_color.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/widget/productdetailswidget/product_details_slider.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/widget/productdetailswidget/product_size.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/widget/productdetailswidget/product_specification_bar.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/widget/productdetailswidget/product_color.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/widget/productdetailswidget/product_details_slider.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/widget/productdetailswidget/product_size.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/widget/productdetailswidget/product_specification_bar.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
 class ProductDetailsScreen extends StatelessWidget {
   ProductDetailsScreen({super.key});
@@ -50,7 +50,8 @@ class ProductDetailsScreen extends StatelessWidget {
                     ),
                     ProductColor(selectedIteam: _selectedIteam),
                     const Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
                       child: Text(
                         'Size',
                         style: TextStyle(

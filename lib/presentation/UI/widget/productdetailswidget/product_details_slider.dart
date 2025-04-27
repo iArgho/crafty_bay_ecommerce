@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
 class ProductDetailsSlider extends StatelessWidget {
   const ProductDetailsSlider({
@@ -15,14 +15,14 @@ class ProductDetailsSlider extends StatelessWidget {
     return Stack(
       children: [
         CarouselSlider(
-         options: CarouselOptions(
-          height: 200.0,
-          autoPlay: true,
-          autoPlayInterval: const Duration(seconds: 3),
-             onPageChanged: (int page, _) {
-            _selectedSlider.value = page;
-          },
-        ),
+          options: CarouselOptions(
+            height: 200.0,
+            autoPlay: true,
+            autoPlayInterval: const Duration(seconds: 3),
+            onPageChanged: (int page, _) {
+              _selectedSlider.value = page;
+            },
+          ),
           items: [1, 2, 3, 4].map((i) {
             return Builder(
               builder: (BuildContext context) {
@@ -50,31 +50,32 @@ class ProductDetailsSlider extends StatelessWidget {
             );
           }).toList(),
         ),
-         Padding(
-     padding: const EdgeInsets.only(top: 180.0),
-           child: ValueListenableBuilder(
-                         valueListenable: _selectedSlider,
-                         builder: (context, value, _) {
-            List<Widget> list = [];
-            for (int i = 0; i < 4; i++) {
-              list.add(
-                Container(
-                  width: 11,
-                  height: 11,
-                  margin: const EdgeInsets.symmetric(horizontal: 4),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(6),
-                      color: value == i ? AppColor.primaryColor : Colors.white),
-                ),
+        Padding(
+          padding: const EdgeInsets.only(top: 180.0),
+          child: ValueListenableBuilder(
+            valueListenable: _selectedSlider,
+            builder: (context, value, _) {
+              List<Widget> list = [];
+              for (int i = 0; i < 4; i++) {
+                list.add(
+                  Container(
+                    width: 11,
+                    height: 11,
+                    margin: const EdgeInsets.symmetric(horizontal: 4),
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(6),
+                        color:
+                            value == i ? AppColor.primaryColor : Colors.white),
+                  ),
+                );
+              }
+              return Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: list,
               );
-            }
-            return Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: list,
-            );
-                     },
-                       ),
-         ),
+            },
+          ),
+        ),
       ],
     );
   }

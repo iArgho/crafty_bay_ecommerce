@@ -1,9 +1,9 @@
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/bottomnavscreen/bottom_cart_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/bottomnavscreen/bottom_category_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/bottomnavscreen/bottom_home_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/bottomnavscreen/bottom_wish_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/screens/bottomnavscreen/bottom_cart_screen.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/screens/bottomnavscreen/bottom_category_screen.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/screens/bottomnavscreen/bottom_home_screen.dart';
+import 'package:iargho_ecommerce_flutter/presentation/UI/screens/bottomnavscreen/bottom_wish_screen.dart';
+import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
 class MainBottomNavScreen extends StatefulWidget {
   const MainBottomNavScreen({super.key});
@@ -31,7 +31,6 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    
       body: _widgetOptions[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
@@ -60,5 +59,4 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
       ),
     );
   }
-
 }
