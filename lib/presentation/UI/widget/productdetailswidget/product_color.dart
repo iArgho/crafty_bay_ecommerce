@@ -1,5 +1,5 @@
+import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
-import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
 class ProductColor extends StatelessWidget {
   const ProductColor({
@@ -31,13 +31,7 @@ class ProductColor extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12),
                     color: value == index
                         ? AppColor.primaryColor
-                        : [
-                            Colors.red,
-                            Colors.yellow,
-                            Colors.green,
-                            Colors.blue,
-                            Colors.purple
-                          ][index],
+                        : [Colors.red, Colors.yellow, Colors.green, Colors.blue, Colors.purple][index],
                   ),
                 ),
               );

@@ -1,5 +1,5 @@
+import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
-import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 
 class ProductCounter extends StatefulWidget {
   const ProductCounter({super.key});
@@ -30,11 +30,7 @@ class _ProductCounterState extends State<ProductCounter> {
       children: [
         IconButton(
           onPressed: _decrement,
-          icon: const Icon(
-            Icons.remove,
-            color: AppColor.primaryColor,
-            size: 16,
-          ),
+          icon: const Icon(Icons.remove, color: AppColor.primaryColor, size: 16,),
         ),
         Text(
           '$quantity',
@@ -42,11 +38,7 @@ class _ProductCounterState extends State<ProductCounter> {
         ),
         IconButton(
           onPressed: _increment,
-          icon: const Icon(
-            Icons.add,
-            color: AppColor.primaryColor,
-            size: 16,
-          ),
+          icon: const Icon(Icons.add, color: AppColor.primaryColor, size: 16,),
         ),
       ],
     );

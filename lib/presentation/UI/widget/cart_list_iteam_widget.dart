@@ -1,5 +1,5 @@
+import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
-import 'package:iargho_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'product_counter_widget.dart';
 
 class CartListItem extends StatelessWidget {
@@ -13,7 +13,8 @@ class CartListItem extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(12), // Rounded corners
+          borderRadius: BorderRadius.circular(12),  // Rounded corners
+          
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -63,7 +64,8 @@ class CartListItem extends StatelessWidget {
               ),
             ),
             Divider(
-              color: Colors.grey.withOpacity(0.4),
+              color: Colors.grey.withOpacity(0.4), 
+             
             ),
           ],
         ),
