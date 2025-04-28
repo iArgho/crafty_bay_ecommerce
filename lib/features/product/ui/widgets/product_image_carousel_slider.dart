@@ -1,5 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:crafty_bay_ecommerce_flutter/app/app_colors.dart';
+import 'package:ecommerce/app/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class ProductImageCarouselSlider extends StatefulWidget {

@@ -1,7 +1,7 @@
-import 'package:crafty_bay_ecommerce_flutter/app/urls.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/auth/data/models/auth_success_model.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/controllers/auth_controller.dart';
-import 'package:crafty_bay_ecommerce_flutter/services/network_caller/network_caller.dart';
+import 'package:ecommerce/app/urls.dart';
+import 'package:ecommerce/features/auth/data/models/auth_success_model.dart';
+import 'package:ecommerce/features/common/ui/controllers/auth_controller.dart';
+import 'package:ecommerce/services/network_caller/network_caller.dart';
 import 'package:get/get.dart';
 
 class OtpVerificationController extends GetxController {

@@ -1,6 +1,6 @@
-import 'package:crafty_bay_ecommerce_flutter/app/app_colors.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/data/models/category/category_pagination_model.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/ui/screens/product_list_screen.dart';
+import 'package:ecommerce/app/app_colors.dart';
+import 'package:ecommerce/features/common/data/models/category/category_pagination_model.dart';
+import 'package:ecommerce/features/product/ui/screens/product_list_screen.dart';
 import 'package:flutter/material.dart';
 
 class CategoryItemWidget extends StatelessWidget {

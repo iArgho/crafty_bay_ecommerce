@@ -1,4 +1,4 @@
-import 'package:crafty_bay_ecommerce_flutter/features/common/data/models/category_model.dart';
+import 'package:ecommerce/features/common/data/models/category_model.dart';
 
 class CategoryListModel {
   String? msg;

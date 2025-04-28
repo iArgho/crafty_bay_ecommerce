@@ -1,6 +1,6 @@
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/controllers/product_list_controller.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/widgets/centered_circular_progress_indicator.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/widgets/product_item_widget.dart';
+import 'package:ecommerce/features/common/ui/controllers/product_list_controller.dart';
+import 'package:ecommerce/features/common/ui/widgets/centered_circular_progress_indicator.dart';
+import 'package:ecommerce/features/common/ui/widgets/product_item_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

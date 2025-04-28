@@ -1,13 +1,13 @@
-import 'package:crafty_bay_ecommerce_flutter/app/app_theme_data.dart';
-import 'package:crafty_bay_ecommerce_flutter/app/controller_binder.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/auth/ui/screens/otp_verification_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/auth/ui/screens/sign_in_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/auth/ui/screens/sign_up_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/auth/ui/screens/splash_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/category/ui/screens/category_list_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/screens/main_bottom_nav_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/ui/screens/product_details_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/ui/screens/product_list_screen.dart';
+import 'package:ecommerce/app/app_theme_data.dart';
+import 'package:ecommerce/app/controller_binder.dart';
+import 'package:ecommerce/features/auth/ui/screens/otp_verification_screen.dart';
+import 'package:ecommerce/features/auth/ui/screens/sign_in_screen.dart';
+import 'package:ecommerce/features/auth/ui/screens/sign_up_screen.dart';
+import 'package:ecommerce/features/auth/ui/screens/splash_screen.dart';
+import 'package:ecommerce/features/category/ui/screens/category_list_screen.dart';
+import 'package:ecommerce/features/common/ui/screens/main_bottom_nav_screen.dart';
+import 'package:ecommerce/features/product/ui/screens/product_details_screen.dart';
+import 'package:ecommerce/features/product/ui/screens/product_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

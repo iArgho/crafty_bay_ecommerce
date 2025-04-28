@@ -1,4 +1,4 @@
-import 'package:crafty_bay_ecommerce_flutter/features/home/data/models/slider_model.dart';
+import 'package:ecommerce/features/home/data/models/slider_model.dart';
 
 class SliderListDataModel {
   List<SliderModel>? results;

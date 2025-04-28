@@ -1,7 +1,7 @@
-import 'package:crafty_bay_ecommerce_flutter/app/urls.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/data/models/product_list_model.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/data/models/product_model.dart';
-import 'package:crafty_bay_ecommerce_flutter/services/network_caller/network_caller.dart';
+import 'package:ecommerce/app/urls.dart';
+import 'package:ecommerce/features/common/data/models/product_list_model.dart';
+import 'package:ecommerce/features/common/data/models/product_model.dart';
+import 'package:ecommerce/services/network_caller/network_caller.dart';
 import 'package:get/get.dart';
 
 /// DONOT WRITE CODE LIKE THIS

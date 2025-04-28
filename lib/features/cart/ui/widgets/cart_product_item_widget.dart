@@ -1,6 +1,6 @@
-import 'package:crafty_bay_ecommerce_flutter/app/app_colors.dart';
-import 'package:crafty_bay_ecommerce_flutter/app/assets_path.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/widgets/product_quantity_inc_dec_button.dart';
+import 'package:ecommerce/app/app_colors.dart';
+import 'package:ecommerce/app/assets_path.dart';
+import 'package:ecommerce/features/common/ui/widgets/product_quantity_inc_dec_button.dart';
 import 'package:flutter/material.dart';
 
 class CartProductItemWidget extends StatelessWidget {

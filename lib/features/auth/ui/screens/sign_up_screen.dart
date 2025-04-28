@@ -1,9 +1,9 @@
-import 'package:crafty_bay_ecommerce_flutter/features/auth/data/models/sign_up_params.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/auth/ui/controllers/sign_up_controller.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/auth/ui/screens/otp_verification_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/auth/ui/widgets/app_logo_widget.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/widgets/centered_circular_progress_indicator.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/widgets/snack_bar_message.dart';
+import 'package:ecommerce/features/auth/data/models/sign_up_params.dart';
+import 'package:ecommerce/features/auth/ui/controllers/sign_up_controller.dart';
+import 'package:ecommerce/features/auth/ui/screens/otp_verification_screen.dart';
+import 'package:ecommerce/features/auth/ui/widgets/app_logo_widget.dart';
+import 'package:ecommerce/features/common/ui/widgets/centered_circular_progress_indicator.dart';
+import 'package:ecommerce/features/common/ui/widgets/snack_bar_message.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

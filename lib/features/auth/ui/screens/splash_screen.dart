@@ -1,5 +1,5 @@
-import 'package:crafty_bay_ecommerce_flutter/features/auth/ui/widgets/app_logo_widget.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/screens/main_bottom_nav_screen.dart';
+import 'package:ecommerce/features/auth/ui/widgets/app_logo_widget.dart';
+import 'package:ecommerce/features/common/ui/screens/main_bottom_nav_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

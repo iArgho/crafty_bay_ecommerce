@@ -1,4 +1,4 @@
-import 'package:crafty_bay_ecommerce_flutter/features/home/data/models/slider_list_data_model.dart';
+import 'package:ecommerce/features/home/data/models/slider_list_data_model.dart';
 
 class SliderPaginationModel {
   int? code;

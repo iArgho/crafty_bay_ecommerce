@@ -1,6 +1,6 @@
-import 'package:crafty_bay_ecommerce_flutter/app/urls.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/data/models/product_details_model.dart';
-import 'package:crafty_bay_ecommerce_flutter/services/network_caller/network_caller.dart';
+import 'package:ecommerce/app/urls.dart';
+import 'package:ecommerce/features/product/data/models/product_details_model.dart';
+import 'package:ecommerce/services/network_caller/network_caller.dart';
 import 'package:get/get.dart';
 
 class ProductDetailsController extends GetxController {

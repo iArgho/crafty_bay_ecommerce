@@ -1,6 +1,6 @@
-import 'package:crafty_bay_ecommerce_flutter/app/app_colors.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/cart/ui/widgets/cart_product_item_widget.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/controllers/main_bottom_nav_controller.dart';
+import 'package:ecommerce/app/app_colors.dart';
+import 'package:ecommerce/features/cart/ui/widgets/cart_product_item_widget.dart';
+import 'package:ecommerce/features/common/ui/controllers/main_bottom_nav_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,11 +1,11 @@
-import 'package:crafty_bay_ecommerce_flutter/app/app_colors.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/widgets/centered_circular_progress_indicator.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/common/ui/widgets/product_quantity_inc_dec_button.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/data/models/product_details_model.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/ui/controllers/product_details_controller.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/ui/widgets/color_picker_widget.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/ui/widgets/product_image_carousel_slider.dart';
-import 'package:crafty_bay_ecommerce_flutter/features/product/ui/widgets/size_picker_widget.dart';
+import 'package:ecommerce/app/app_colors.dart';
+import 'package:ecommerce/features/common/ui/widgets/centered_circular_progress_indicator.dart';
+import 'package:ecommerce/features/common/ui/widgets/product_quantity_inc_dec_button.dart';
+import 'package:ecommerce/features/product/data/models/product_details_model.dart';
+import 'package:ecommerce/features/product/ui/controllers/product_details_controller.dart';
+import 'package:ecommerce/features/product/ui/widgets/color_picker_widget.dart';
+import 'package:ecommerce/features/product/ui/widgets/product_image_carousel_slider.dart';
+import 'package:ecommerce/features/product/ui/widgets/size_picker_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
