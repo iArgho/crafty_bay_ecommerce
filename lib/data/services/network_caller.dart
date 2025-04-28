@@ -1,5 +1,0 @@
-class NetworkCaller {
-  void getRequest(){
-    
-  }
-}
