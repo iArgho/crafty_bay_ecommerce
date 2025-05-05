@@ -1,8 +1,7 @@
-# crafty_bay_ecommerce_flutter
 
-# Crafty Bay E-Commerce Flutter
+# iShop E-Commerce Flutter
 
-Crafty Bay is an e-commerce mobile application built with Flutter, designed for users to browse and purchase products seamlessly. The app leverages Firebase for backend services and includes features like user authentication, product browsing, and secure checkout.
+iShop is an e-commerce mobile application built with Flutter, designed for users to browse and purchase products seamlessly. The app leverages Firebase for backend services and includes features like user authentication, product browsing, and secure checkout.
 
 ## Features
 
