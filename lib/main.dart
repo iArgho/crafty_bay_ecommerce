@@ -1,6 +1,9 @@
-import 'package:crafty_bay_ecommerce_flutter/application/app.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'application/app.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const CraftyBay());
 }
