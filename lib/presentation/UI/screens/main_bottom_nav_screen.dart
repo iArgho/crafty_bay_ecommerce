@@ -1,7 +1,7 @@
+import 'package:crafty_bay_ecommerce_flutter/presentation/UI/screens/bottomnavscreen/bottom_product_screen.dart';
 import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/bottomnavscreen/bottom_cart_screen.dart';
 import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/bottomnavscreen/bottom_category_screen.dart';
 import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/bottomnavscreen/bottom_home_screen.dart';
-import 'package:crafty_bay_ecommerce_flutter/presentation/ui/screens/bottomnavscreen/bottom_wish_screen.dart';
 import 'package:crafty_bay_ecommerce_flutter/presentation/utility/color_palette.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +19,7 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
     const BottomHomeScreen(),
     const BottomCategoryScreen(),
     const BottomCartScreen(),
-    const BottomWishScreen(),
+    BottomProductScreen(),
   ];
 
   void _onItemTapped(int index) {
@@ -31,7 +31,6 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    
       body: _widgetOptions[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
@@ -45,12 +44,12 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
             label: 'Category',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_bag),
+            icon: Icon(Icons.shopping_cart),
             label: 'Cart',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
-            label: 'Wish',
+            icon: Icon(Icons.shopping_bag),
+            label: 'All Products',
           ),
         ],
         currentIndex: _selectedIndex,
@@ -60,5 +59,4 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
       ),
     );
   }
-
 }

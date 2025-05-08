@@ -50,7 +50,8 @@ class ProductDetailsScreen extends StatelessWidget {
                     ),
                     ProductColor(selectedIteam: _selectedIteam),
                     const Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
                       child: Text(
                         'Size',
                         style: TextStyle(

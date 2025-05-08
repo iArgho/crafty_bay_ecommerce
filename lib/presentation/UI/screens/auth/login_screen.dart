@@ -70,10 +70,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   decoration:
                       const InputDecoration(hintText: 'Enter Email Address'),
                   validator: (text) {
-                    if (text?.isEmpty ?? true)
+                    if (text?.isEmpty ?? true) {
                       return 'Enter Your Email Address';
-                    if (!GetUtils.isEmail(text!))
+                    }
+                    if (!GetUtils.isEmail(text!)) {
                       return 'This Is Not An Email Address.';
+                    }
                     return null;
                   },
                 ),
@@ -83,10 +85,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   obscureText: true,
                   decoration: const InputDecoration(hintText: 'Enter Password'),
                   validator: (text) {
-                    if (text == null || text.isEmpty)
+                    if (text == null || text.isEmpty) {
                       return 'Enter Your Password';
-                    if (text.length < 6)
+                    }
+                    if (text.length < 6) {
                       return 'Password must be at least 6 characters';
+                    }
                     return null;
                   },
                 ),
